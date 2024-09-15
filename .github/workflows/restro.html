@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Harmony Bistro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Green Harmony Bistro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Pure Vegetarian Dining with a Fusion of Flavors</h2>
+            <p>Enjoy a wholesome meal that’s not just delicious but also harmonious with nature.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-apples-chili_2829-19992.jpg?size=626&ext=jpg&ga=GA1.1.627019669.1724299451&semt=ais_hybrid" alt="Paneer Tikka">
+                    <h3>Paneer Tikka</h3>
+                    <p>$12.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://img.freepik.com/free-photo/high-angle-pakistan-meal-assortment_23-2148821516.jpg?uid=R115548755&ga=GA1.1.627019669.1724299451&semt=ais_hybrid" alt="Vegetable Biryani">
+                    <h3>Vegetable Biryani</h3>
+                    <p>$10.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086051.jpg?uid=R115548755&ga=GA1.1.627019669.1724299451&semt=ais_hybrid" alt="Masala Dosa">
+                    <h3>Masala Dosa</h3>
+                    <p>$9.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Shopping Cart -->
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <ul id="cart-items"></ul>
+                <p id="total-price">Total: $0.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Green Harmony Bistro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
